@@ -1,0 +1,7 @@
+{
+    "name": "Default",
+    "extends": "",
+    "asset-path": "assets",
+    "views-path": "views",
+    "images-path": "images"
+}
