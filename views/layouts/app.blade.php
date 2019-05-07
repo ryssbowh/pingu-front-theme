@@ -55,6 +55,7 @@
         </nav>
 
         <main class="py-4">
+            @include('core::notify')
             @yield('content')
         </main>
     </div>
