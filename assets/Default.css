@@ -10655,3 +10655,8 @@ a.text-dark:focus {
   }
 }
 
+.maintenance-mode-on {
+  background: #f74125;
+  text-align: center;
+}
+

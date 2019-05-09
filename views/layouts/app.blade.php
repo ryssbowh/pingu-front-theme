@@ -3,6 +3,11 @@
 @section('body')
 <body>
     <div id="app">
+        
+        @if(app()->isDownForMaintenance())
+            <div class="maintenance-mode-on">You're using {{ config('app.name') }} in maintenance mode</div>
+        @endif
+
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
