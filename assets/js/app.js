@@ -1,1 +1,1 @@
-import _ from 'bootstrap';
+import _ from 'bootstrap'; 

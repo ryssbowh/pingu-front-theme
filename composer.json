@@ -1,5 +1,5 @@
 {
-    "name": "pingu/default-theme",
+    "name": "pingu/front-theme",
     "description": "Default theme for Pingu",
     "type" : "pingu-theme",
     "authors": [
