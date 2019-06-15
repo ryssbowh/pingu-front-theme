@@ -10,7 +10,6 @@ class Composer
 	 * @return array
 	 */
 	public static function getComposers(){
-
         return [
         ];
 
