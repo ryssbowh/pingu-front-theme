@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    {{ $form->render() }}
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ const mix = require('laravel-mix');
 const path = require('path');
 
 var assetPath = './Themes/Front/assets/';
-var publicPath = './themes/';
+var publicPath = 'theme-assets/';
 
 //Javascript
 mix.js(assetPath + 'js/app.js', publicPath + 'Front.js').sourceMaps();
