@@ -2,5 +2,8 @@
     "name": "Front",
     "extends": "",
     "asset-path": "assets",
-    "views-path": "views"
+    "views-path": "views",
+    "layouts": {
+    	"layouts.app": "Default"
+    }
 }

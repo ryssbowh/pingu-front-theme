@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <h1>403</h1>
-            <h2>{{ $exception->getMessage() }}</h2>
+            @if(isset($exception))
+            	<h2>{{ $exception->getMessage() }}</h2>
+            @endif
         </div>
     </div>
 </div>
