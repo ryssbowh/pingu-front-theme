@@ -64,5 +64,7 @@
             @yield('content')
         </main>
     </div>
+
+    @include('core::jsconfig')
 </body>
 @endsection
