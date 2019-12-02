@@ -10,7 +10,9 @@
 
 	                <div class="card-body">
 	                    <p>{{ $message }}</p>
-	                    <p>Expected to be back up the {{ $willBeAvailableAt }}</p>
+	                    @isset($willBeAvailableAt)
+                            <p>Expected to be back up the {{ $willBeAvailableAt }}</p>
+                        @endisset
 	                </div>
 	            </div>
 	        </main>

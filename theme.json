@@ -4,6 +4,25 @@
     "asset-path": "assets",
     "views-path": "views",
     "layouts": {
-    	"layouts.app": "Default"
+    	"layouts.app": {
+            "name":"Default",
+            "regions":{
+                "header":{
+                    "name":"Header",
+                    "width":100,
+                    "height":100
+                },
+                "content":{
+                    "name":"Content",
+                    "width":100,
+                    "height":300
+                },
+                "footer":{
+                    "name":"Footer",
+                    "width":100,
+                    "height":100
+                }
+            }
+        }
     }
 }
