@@ -1,3 +1,3 @@
-<div class="block block-{{ kebab_case($block->getBlockSection()) }}">
+<div class="block block-{{ $block->fullMachineName() }}">
 	{!! $block->render() !!}
 </div>
