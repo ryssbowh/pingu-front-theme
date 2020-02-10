@@ -1,0 +1,36 @@
+.field-wrapper{
+    @extend .form-group;
+}
+
+textarea{
+    width:100%;
+}
+
+input{
+    &[type=password], &[type=text], &[type=email], &[type=number]{
+        @extend .form-control;
+    }
+    &[type=submit]{
+        @extend .btn;
+        @extend .btn-primary;
+    }
+}
+
+select{
+    @extend .form-control;
+}
+
+.checkboxes-items{
+    @extend .form-control;
+}
+
+.checkboxes-item{
+    @extend .form-check;
+    @extend .form-check-inline;
+    input{
+        @extend .form-check-input;
+    }
+    label{
+        @extend .form-check-label;
+    }
+}
