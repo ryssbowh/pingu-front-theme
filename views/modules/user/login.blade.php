@@ -8,7 +8,7 @@
                 <div class="card-header">Login</div>
 
                 <div class="card-body">
-                    {{ $form->render() }}
+                    {!! $form->render() !!}
                 </div>
             </div>
         </div>

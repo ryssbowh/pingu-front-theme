@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        {!! \Menus::menu('main-menu')->render() !!}
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -60,11 +60,13 @@
         </nav>
 
         <main class="py-4">
-            @include('core::notify')
-            @yield('content')
+            @include('core@notify')
+            <div class="container main-content">
+                @yield('content')
+            </div>
         </main>
     </div>
 
-    @include('core::jsconfig')
+    @include('core@jsconfig')
 </body>
 @endsection

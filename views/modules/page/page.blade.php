@@ -2,9 +2,9 @@
 
 @section('content')
 	<div class="container">
-		<div class="page">
+		<div class="{{ $classes }}">
 			@foreach($blocks as $block)
-				@include('page::block', ['block' => $block->instance()])
+				{!! $block->render() !!}
 			@endforeach
 		</div>
 	</div>
